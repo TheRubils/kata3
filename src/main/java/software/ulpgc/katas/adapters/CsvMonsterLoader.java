@@ -1,4 +1,7 @@
-package software.ulpgc.katas;
+package software.ulpgc.katas.adapters;
+
+import software.ulpgc.katas.domains.Monster;
+import software.ulpgc.katas.ports.MonsterLoader;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +10,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CsvMonsterLoader implements MonsterLoader{
+public class CsvMonsterLoader implements MonsterLoader {
     @Override
     public List<Monster> load(InputStream inputStream) throws IOException {
         List<Monster> monsters = new ArrayList<>();

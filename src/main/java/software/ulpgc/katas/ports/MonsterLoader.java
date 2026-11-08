@@ -1,4 +1,6 @@
-package software.ulpgc.katas;
+package software.ulpgc.katas.ports;
+
+import software.ulpgc.katas.domains.Monster;
 
 import java.io.IOException;
 import java.io.InputStream;
