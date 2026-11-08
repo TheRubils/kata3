@@ -7,6 +7,6 @@ Para empezar se deberá dirigir a la opcion de Clone Repository en su entorno de
 - **Domain:** Contiene la entidad de registro _(Monster)_.
 - **Ports:** Define las interfaces de almacenamiento o carga.
 ## Video
-- Enlance: https://youtu.be/6OwXHvYsGoQ
+- Enlance: [Kata_3](https://youtu.be/6OwXHvYsGoQ)
 ## Verificación
 Comprobación mediante una entrada correcta comparando la salida con un JSON esperado, pruebas con registros incompletos o datasets vacíos, y validación de que el JSON generado puede parsearse de nuevo correctamente.
